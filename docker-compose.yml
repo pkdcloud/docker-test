@@ -1,0 +1,8 @@
+version: '3'
+services:
+  greeter:
+    build: .
+    environment:
+      HELLO: good morning
+    image: greeter
+    working_dir: /opt/app
